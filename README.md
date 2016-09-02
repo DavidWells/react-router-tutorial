@@ -86,6 +86,19 @@ this.props.children is dynamic and will serve the correct component that matches
 </Router>
 ```
 
+# add programmatic routing example
+```jsx
+/* /src/index.js */
+<Router history={browserHistory}>
+  <Route path="/" component={Root}>
+    <IndexRoute component={Home} />
+    <Route path="/post/:id" component={ParamsExample} />
+    <Route path="/query" component={QueryExample} />
+    <Route path="programmatic" component={ProgrammaticExample} />
+  </Route>
+</Router>
+```
+
 # add 404
 ```jsx
 /* /src/index.js */

@@ -15,8 +15,10 @@ class App extends Component {
         <p className="App-intro">
           React Router!
         </p>
+
         <Link to="post/1">URL Parameter Example</Link><hr/>
         <Link to="query">Query Example</Link><hr/>
+        <Link to="programmatic">Programmatic Example</Link><hr/>
         <Link to="lkajsdklajdlkasjdkla">404 Example</Link><hr/>
       </div>
     );
