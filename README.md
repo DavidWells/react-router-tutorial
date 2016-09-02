@@ -98,3 +98,11 @@ this.props.children is dynamic and will serve the correct component that matches
   </Route>
 </Router>
 ```
+
+# Add `<Link>` Component
+
+# Programatic Routing
+
+```
+use history.go
+```
